@@ -1,0 +1,56 @@
+/* src/App.css */
+.chatbot {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.chat-messages {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.message.user {
+  background-color: #d1ffd1;
+  text-align: right;
+}
+
+.message.bot {
+  background-color: #e1e1e1;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
