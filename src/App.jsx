@@ -6,7 +6,7 @@ import './App.css'; // Add some basic styling
 function App() {
   return (
     <div className="App">
-      <h1>AI Chatbot</h1>
+      <h1>Consultation</h1>
       <Chatbot />
     </div>
   );
